@@ -1,0 +1,15 @@
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.csproj.AssemblyReference.cache
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.AssemblyInfoInputs.cache
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.AssemblyInfo.cs
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.csproj.CoreCompileInputs.cache
+/Users/stas/RiderProjects/GeekBrains/Example002/bin/Debug/net7.0/Example002
+/Users/stas/RiderProjects/GeekBrains/Example002/bin/Debug/net7.0/Example002.deps.json
+/Users/stas/RiderProjects/GeekBrains/Example002/bin/Debug/net7.0/Example002.runtimeconfig.json
+/Users/stas/RiderProjects/GeekBrains/Example002/bin/Debug/net7.0/Example002.dll
+/Users/stas/RiderProjects/GeekBrains/Example002/bin/Debug/net7.0/Example002.pdb
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.dll
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/refint/Example002.dll
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.pdb
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/Example002.genruntimeconfig.cache
+/Users/stas/RiderProjects/GeekBrains/Example002/obj/Debug/net7.0/ref/Example002.dll
