@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Example002
-build_property.ProjectDir = /Users/stas/RiderProjects/GeekBrains/Example002/
+build_property.ProjectDir = /Users/stas/RiderProjects/GeekBrains/Lessons/Lecture01/Example002/

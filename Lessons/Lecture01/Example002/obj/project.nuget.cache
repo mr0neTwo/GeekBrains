@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pkHHWZr7g/h6lxx8fn/UIphMkxk4BpmAfwDyiS63WNdgJFSBvVjrrVHEfdJiuf5hfLmtu2x4JLBKizT+e7GenA==",
+  "dgSpecHash": "LOT6Fl28Yx8xFJd1xGTSDkLy3hPNn++iECqhxQPw3uHWnShPlNSFzCrGflXajqFp9dVProLdViSvZz/RckcTRw==",
   "success": true,
-  "projectFilePath": "/Users/stas/RiderProjects/GeekBrains/Example002/Example002.csproj",
+  "projectFilePath": "/Users/stas/RiderProjects/GeekBrains/Lessons/Lecture01/Example002/Example002.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

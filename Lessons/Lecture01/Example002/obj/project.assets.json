@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/stas/RiderProjects/GeekBrains/Example002/Example002.csproj",
+      "projectUniqueName": "/Users/stas/RiderProjects/GeekBrains/Lessons/Lecture01/Example002/Example002.csproj",
       "projectName": "Example002",
-      "projectPath": "/Users/stas/RiderProjects/GeekBrains/Example002/Example002.csproj",
+      "projectPath": "/Users/stas/RiderProjects/GeekBrains/Lessons/Lecture01/Example002/Example002.csproj",
       "packagesPath": "/Users/stas/.nuget/packages/",
-      "outputPath": "/Users/stas/RiderProjects/GeekBrains/Example002/obj/",
+      "outputPath": "/Users/stas/RiderProjects/GeekBrains/Lessons/Lecture01/Example002/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/stas/.nuget/NuGet/NuGet.Config"
