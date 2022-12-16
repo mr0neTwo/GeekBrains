@@ -8,21 +8,29 @@
 static int GetNumberFromConsole(string massage)
 {
     int number;
-    while (true)
+    bool check = true;
+    while (check)
     {
         Console.Write(massage);
     
         string input = Console.ReadLine();
-        if (int.TryParse(input, out number)) break;
-    
-        Console.WriteLine("Число должно быть целым!");
+        if (int.TryParse(input, out number))
+        {
+            check = false;
+        }
+        else
+        {
+            Console.WriteLine("Число должно быть целым!");
+        }
     }
 
     return number;
 }
 
-int[] numbers = new int[3];
-for (int i = 0; i < 3; i++)
+int arrayLength = 3;
+
+int[] numbers = new int[arrayLength];
+for (int i = 0; i < arrayLength; i++)
 {
     numbers[i] = GetNumberFromConsole( $"Введите число {i + 1}: ");
 }

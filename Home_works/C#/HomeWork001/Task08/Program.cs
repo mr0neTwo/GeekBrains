@@ -8,14 +8,20 @@
 static int GetNumberFromConsole(string massage)
 {
     int number;
-    while (true)
+    bool check = true;
+    while (check)
     {
         Console.Write(massage);
     
         string input = Console.ReadLine();
-        if (int.TryParse(input, out number)) break;
-    
-        Console.WriteLine("Число должно быть целым!");
+        if (int.TryParse(input, out number))
+        {
+            check = false;
+        }
+        else
+        {
+            Console.WriteLine("Число должно быть целым!");
+        }
     }
 
     return number;
@@ -26,6 +32,6 @@ int number = GetNumberFromConsole("Введите целое число: ");
 Console.Write("{");
 for (int i = 2; i <= number; i += 2)
 {
-    Console.Write(i + (i == number | i == number - 1 ? "" : ", " ));
+    Console.Write(i + (i == number || i == number - 1 ? "" : ", " ));
 }
 Console.WriteLine("}");
