@@ -6,3 +6,26 @@
 -3 -> нет
 7 -> нет
 */
+
+static int GetNumberFromConsole(string massage)
+{
+    int number;
+    while (true)
+    {
+        Console.Write(massage);
+    
+        string input = Console.ReadLine();
+        if (int.TryParse(input, out number)) break;
+    
+        Console.WriteLine("Число должно быть целым!");
+    }
+
+    return number;
+}
+
+int number = GetNumberFromConsole("Введите целое число: ");
+
+string definition = number % 2 == 0 ? "четное" : "нечетное";
+
+Console.WriteLine($"Число {number} {definition}.");
+
