@@ -4,3 +4,27 @@
 44 5 78 -> 78
 22 3 9 -> 22
 */
+
+static int GetNumberFromConsole(string massage)
+{
+    int number;
+    while (true)
+    {
+        Console.Write(massage);
+    
+        string input = Console.ReadLine();
+        if (int.TryParse(input, out number)) break;
+    
+        Console.WriteLine("Число должно быть целым!");
+    }
+
+    return number;
+}
+
+int[] numbers = new int[3];
+for (int i = 0; i < 3; i++)
+{
+    numbers[i] = GetNumberFromConsole( $"Введите число {i + 1}: ");
+}
+
+Console.WriteLine($"Максимальное введенное число это {numbers.Max()}.");
