@@ -7,4 +7,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
+	GlobalSection(RiderSharedRunConfigurations) = postSolution
+		File = Lessons\Example011_ArrayLibrary\.run\Example011.run.xml
+	EndGlobalSection
 EndGlobal

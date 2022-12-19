@@ -9,7 +9,7 @@ a = -9 b = -3 -> max = -3
 
 static int GetNumberFromConsole(string massage)
 {
-    int number;
+    int number = 0;
     bool check = true;
     while (check)
     {
