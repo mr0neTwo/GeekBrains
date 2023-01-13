@@ -13,7 +13,7 @@ static int GetNumberFromConsole(string massage)
     {
         Console.Write(massage);
     
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()!;
         if (int.TryParse(input, out number))
         {
             check = false;
