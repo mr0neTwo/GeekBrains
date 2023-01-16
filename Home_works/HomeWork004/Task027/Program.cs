@@ -29,7 +29,7 @@ static int GetIntFromConsole(string massage)
 int SumOfDigit(int number)
 {
     int sum = 0;
-    while(number % 10 > 0 || number / 10 != 0) // пока есть какой либо остаток от деления на 10
+    while(number != 0) // пока есть какой либо остаток от деления на 10
     {
         int digit = number % 10;
         sum += digit;
