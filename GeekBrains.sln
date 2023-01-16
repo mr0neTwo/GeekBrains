@@ -36,6 +36,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task027", "Home_works\HomeW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task029", "Home_works\HomeWork004\Task029\Task029.csproj", "{2C736D4A-017E-48C8-8D90-DC6ACAF24484}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTasks", "Seminars\Seminar04\ArrayTasks\ArrayTasks.csproj", "{68E56BFE-81A9-4759-B7A3-877387E9EF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task034", "Home_works\HomeWork005\Task034\Task034.csproj", "{B3F394C4-767E-426D-BF8F-1458E364B9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task036", "Home_works\HomeWork005\Task036\Task036.csproj", "{43C3BB9C-E39A-4FE8-9B8B-34CC9BAECAD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task038", "Home_works\HomeWork005\Task038\Task038.csproj", "{77DDD7EB-0BF2-4733-959F-CA9353ACACD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +114,22 @@ Global
 		{2C736D4A-017E-48C8-8D90-DC6ACAF24484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C736D4A-017E-48C8-8D90-DC6ACAF24484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C736D4A-017E-48C8-8D90-DC6ACAF24484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E56BFE-81A9-4759-B7A3-877387E9EF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E56BFE-81A9-4759-B7A3-877387E9EF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E56BFE-81A9-4759-B7A3-877387E9EF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E56BFE-81A9-4759-B7A3-877387E9EF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F394C4-767E-426D-BF8F-1458E364B9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F394C4-767E-426D-BF8F-1458E364B9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F394C4-767E-426D-BF8F-1458E364B9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F394C4-767E-426D-BF8F-1458E364B9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C3BB9C-E39A-4FE8-9B8B-34CC9BAECAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C3BB9C-E39A-4FE8-9B8B-34CC9BAECAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C3BB9C-E39A-4FE8-9B8B-34CC9BAECAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C3BB9C-E39A-4FE8-9B8B-34CC9BAECAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DDD7EB-0BF2-4733-959F-CA9353ACACD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DDD7EB-0BF2-4733-959F-CA9353ACACD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DDD7EB-0BF2-4733-959F-CA9353ACACD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DDD7EB-0BF2-4733-959F-CA9353ACACD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(RiderSharedRunConfigurations) = postSolution
 		File = Lessons\Example011_ArrayLibrary\.run\Example011.run.xml
