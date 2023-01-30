@@ -7,7 +7,7 @@
 
 static int SunNumbersFormNToM(int m, int n)
 {
-    if (m >= n) return n;
+    if (m > n) return 0;
     
     return m + SunNumbersFormNToM(m + 1, n);
 }
