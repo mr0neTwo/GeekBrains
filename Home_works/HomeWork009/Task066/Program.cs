@@ -12,7 +12,7 @@ static int SunNumbersFormNToM(int m, int n)
     return m + SunNumbersFormNToM(m + 1, n);
 }
 
-int m = 1, n = 15;
+int m = 15, n = 15;
 
 int sum = SunNumbersFormNToM(m, n);
 Console.WriteLine($"Сумма числе в диапазоне от {m} до {n} равна {sum}");
