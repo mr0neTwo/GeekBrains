@@ -5,15 +5,15 @@
 // M = 4; N = 8. -> 30
 
 
-static int SunNumbersFormNToM(int m, int n)
+static int SumNumbersFormNToM(int m, int n)
 {
     if (m > n) return 0;
     
-    return m + SunNumbersFormNToM(m + 1, n);
+    return m + SumNumbersFormNToM(m + 1, n);
 }
 
 int m = 1, n = 15;
 
-int sum = SunNumbersFormNToM(m, n);
+int sum = SumNumbersFormNToM(m, n);
 Console.WriteLine($"Сумма числе в диапазоне от {m} до {n} равна {sum}");
 
